@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ## Variável de Ambiente
 
-Crie uma arquivo .env e coloque nele sua chave de API:
+Crie um arquivo .env e coloque nele sua chave de API:
 
 GEMINI_API_KEY=chave_de_api
 

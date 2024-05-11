@@ -28,7 +28,7 @@ while prompt != "n":
     response = chat.send_message(prompt)
     print(response.text, "\n\n")
     
-    prompt = input("Deseja continuar a pesquisa? Envie \"n\" para encerrar. ")
+    prompt = input("Caso queira continuar, informe uma nova entrada. Do contrário, informe n para encerrar: ")
 
 
 with open("data.txt", "w") as f:
